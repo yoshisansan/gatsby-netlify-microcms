@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-microcms',
       options: {
-        apiKey: '0ebe4ba1-6fd5-4bd7-b703-ffbaf11078b5',
+        apiKey: process.env.GATSBY_MICROCMS_API_KEY,
         serviceId: 'gatsby',
         apis: [{
           endpoint: 'qiita',
